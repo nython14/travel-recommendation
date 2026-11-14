@@ -1,0 +1,44 @@
+{
+  "beaches": [
+    {
+      "name": "Anse Source d’Argent",
+      "location": "La Digue, Seychelles",
+      "description": "A beautiful stretch of sand known for its granite boulders, clear water, and calm tropical scenery.",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "name": "Navagio Beach",
+      "location": "Zakynthos, Greece",
+      "description": "A dramatic cove framed by steep cliffs and bright blue Ionian Sea water.",
+      "imageUrl": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=85"
+    }
+  ],
+  "temples": [
+    {
+      "name": "Angkor Wat",
+      "location": "Siem Reap, Cambodia",
+      "description": "A vast temple complex celebrated for its detailed stone carvings and remarkable architecture.",
+      "imageUrl": "https://images.unsplash.com/photo-1606293926075-69a00db6f5f1?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "name": "Temple of the Emerald Buddha",
+      "location": "Bangkok, Thailand",
+      "description": "A revered temple within the Grand Palace complex, known for ornate details and vivid decoration.",
+      "imageUrl": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1000&q=85"
+    }
+  ],
+  "countries": [
+    {
+      "name": "Japan",
+      "location": "East Asia",
+      "description": "Explore a mix of historic temples, lively cities, mountain landscapes, and distinctive food culture.",
+      "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "name": "Italy",
+      "location": "Southern Europe",
+      "description": "Discover historic cities, coastal villages, celebrated art, and regional food traditions.",
+      "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1000&q=85"
+    }
+  ]
+}

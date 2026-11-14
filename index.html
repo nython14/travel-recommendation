@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover inspiring beaches, temples, and countries with Travel Recommendation.">
+  <meta name="deployment-url" content="ADD_YOUR_GITHUB_PAGES_URL_HERE">
+  <title>Travel Recommendation | Find your next destination</title>
+  <link rel="stylesheet" href="travel_recommendation.css">
+  <script src="travel_recommendation.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Travel Recommendation home">✈ Travel<span>Mate</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About Us</a>
+      <a href="#contact" class="nav-link">Contact Us</a>
+    </nav>
+    <div class="search-area" role="search">
+      <label class="sr-only" for="searchInput">Search destinations</label>
+      <input id="searchInput" type="search" placeholder="Search beach, temple, country..." autocomplete="off">
+      <button id="searchButton" class="btn btn-search" type="button">Search</button>
+      <button id="clearButton" class="btn btn-clear" type="button">Clear</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="page-section hero">
+      <div class="hero-content">
+        <p class="eyebrow">YOUR NEXT ADVENTURE STARTS HERE</p>
+        <h1>Find a place<br>that moves you.</h1>
+        <p class="hero-copy">From peaceful beaches to remarkable temples and unforgettable countries, discover destinations worth travelling for.</p>
+        <a class="btn btn-primary" href="#recommendations">Explore recommendations</a>
+      </div>
+      <div class="hero-note">
+        <span class="note-line"></span>
+        <p>Collect moments.<br>Explore the world.</p>
+      </div>
+    </section>
+
+    <section id="recommendations" class="results-section" aria-live="polite">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">TRAVEL IDEAS</p>
+          <h2>Recommended for you</h2>
+        </div>
+        <p id="resultMessage" class="result-message">Search for “beach”, “temple”, or “country” to get started.</p>
+      </div>
+      <div id="resultsGrid" class="results-grid"></div>
+    </section>
+
+    <section id="about" class="page-section content-page">
+      <div class="content-intro">
+        <p class="eyebrow">WHO WE ARE</p>
+        <h1>About TravelMate</h1>
+        <p class="lead">We believe the best journeys begin with curiosity.</p>
+      </div>
+      <div class="about-layout">
+        <div>
+          <h2>Our story</h2>
+          <p>TravelMate is a travel inspiration project created to help curious people discover memorable places around the world. We bring together destination ideas, useful starting points, and a simple way to explore beaches, temples, and countries.</p>
+          <p>Our goal is to make travel discovery feel welcoming and straightforward, whether you are planning a future holiday or simply exploring somewhere new from home.</p>
+        </div>
+        <aside class="team-panel">
+          <h2>Meet the team</h2>
+          <p>Our small, curious team is focused on making travel discovery simple and enjoyable.</p>
+          <ul>
+            <li><strong>Destination research:</strong> find interesting places and keep information organized.</li>
+            <li><strong>Design:</strong> make the website clear, accessible, and easy to use.</li>
+            <li><strong>Development:</strong> maintain the search experience and improve the site.</li>
+          </ul>
+          <h3>How we work</h3>
+          <p>We value curiosity, respect different cultures, check information carefully, and put the traveller first.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="contact" class="page-section content-page contact-page">
+      <div class="content-intro">
+        <p class="eyebrow">LET'S TALK</p>
+        <h1>Contact us</h1>
+        <p class="lead">Have a question or a destination suggestion? Send us a message.</p>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-details">
+          <h2>Get in touch</h2>
+          <p>We would love to hear your feedback, questions, and travel ideas.</p>
+          <p><strong>Email:</strong> <span id="contactEmailText">Add your contact email in the JavaScript settings</span></p>
+          <p><strong>Response time:</strong> We aim to respond as soon as possible.</p>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p id="formMessage" class="form-message" aria-live="polite">The form opens your email app to send the message.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#home">✈ Travel<span>Mate</span></a>
+    <p>Explore thoughtfully. Travel kindly.</p>
+    <small>© <span id="year"></span> TravelMate. Created for a learning project.</small>
+  </footer>
+</body>
+</html>
