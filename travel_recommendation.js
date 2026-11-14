@@ -1,6 +1,6 @@
 // TravelMate recommendation website
 // Add your own contact email below before publishing if you want the form to open an email draft.
-const CONTACT_EMAIL = "YOUR_EMAIL@example.com";
+const CONTACT_EMAIL = "nython14@gmail.com";
 
 const resultsGrid = document.getElementById("resultsGrid");
 const resultMessage = document.getElementById("resultMessage");
